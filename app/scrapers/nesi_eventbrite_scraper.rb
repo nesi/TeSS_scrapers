@@ -38,7 +38,7 @@ class NesiEventbriteScraper < Tess::Scrapers::Scraper
             start: event_data['start']['local'],
             end: event_data['end']['local'],
             description: event_data['description']['text'],
-            organizer: 'CVL',
+            organizer: 'NeSI',
             event_types: [:workshops_and_courses]
         )
 
